@@ -52,7 +52,6 @@ img {
 html {
     font-size: 16px; /* Adjust for REM */
 	line-height: 1;
-    background-color: #000000;
 }
 
 body {
@@ -76,6 +75,18 @@ article {
     position: relative;
     height: 583px;
     background-color: #FFFFFF;
+}
+
+.product-details p {
+    display: inline-block;
+}
+
+.product-header {
+    padding-bottom: 2rem;
+}
+
+.price {
+    float: right;
 }
 
 .section {
@@ -119,5 +130,4 @@ button {
     line-height: 3.5rem;
     width: 100%;
     border: none;
-    background-color: #808080;
 }
