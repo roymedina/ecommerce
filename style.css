@@ -1,0 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Meyer Reset CSS */
+
+img {
+	max-width: 100%; /*makes images scale with flexible grids*/
+	display: block; /*removes tiny space added in some browsers below images */
+}
+
+html {
+    font-size: 16px; /* Adjust for REM */
+	line-height: 1;
+    background-color: #C0C0C0;
+}
+
+body {
+    margin: 0 auto;
+    width: 700px;
+    background-color: #F0F0F0;
+}
+
+article {
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 6.375rem;
+    width: 83.28571428571429%;
+}
+
+.main-image {
+    padding-bottom: 2rem;
+}
+
+.product-details {
+    position: relative;
+    height: 583px;
+    background-color: #FFFFFF;
+}
+
+.section {
+    margin: 0 auto;
+    width: 89.02229845626072%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #BEBEBE;
+}
+
+.section:last-child {
+    border-bottom-style: none;
+}
+
+.title {
+    float: left;
+    padding-right: 2rem;
+    width: 4.631217838765009%;
+}
+
+.colors {
+    display: inline-flex;
+    padding-right: 32px;
+}
+
+.size {
+    margin-right: 2rem;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    width: 74px;
+    height: 74px;
+    border: 1px;
+    border-style: solid;
+    border-color: #BEBEBE;
+}
+
+button {
+    padding: 16px 0;    
+    width: 100%;
+    border: none;
+    background-color: #808080;
+}
