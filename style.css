@@ -52,7 +52,7 @@ img {
 html {
     font-size: 16px; /* Adjust for REM */
 	line-height: 1;
-    background-color: #C0C0C0;
+    background-color: #000000;
 }
 
 body {
@@ -99,24 +99,24 @@ article {
 }
 
 .colors {
-    display: inline-flex;
-    padding-right: 32px;
+    display: inline-block;
+    padding-right: 2rem;
 }
 
 .size {
     margin-right: 2rem;
-    align-items: center;
-    text-align: center;
-    display: inline-flex;
+    display: inline-block;
     width: 74px;
     height: 74px;
     border: 1px;
     border-style: solid;
     border-color: #BEBEBE;
+    line-height: 4.5rem;
+    text-align: center;
 }
 
 button {
-    padding: 16px 0;    
+    line-height: 3.5rem;
     width: 100%;
     border: none;
     background-color: #808080;
