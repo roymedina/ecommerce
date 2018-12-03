@@ -20,12 +20,30 @@
     </head>
 
     <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+
         <article>
-            <img src="images/Product-Image.jpg" class="main-image">
+                
+            <div class="container">
+                <!--<button id=touchpoint1>1</button>
+                <button id=touchpoint2>2</button>
+                <button id=touchpoint3>3</button>-->
+                
+                <button id="button">3</button>
+                    <div id="wrapper" class="open">
+                        <ul id="list">
+                            <li>Flip Out Silicone Dish</li>
+                        </ul>
+                    </div>
+            
+                <img src="images/Product-Image.jpg" class="main-image">
+            </div>
 
             <div class="product-details">
                 <div class="section">
-                    <div class="product-header">    <p class="name">Sit N Sip</p>
+                    <div class="product-header">    
+                        <p class="name">Sit N Sip</p>
                         <p class="price">$19.99</p>
                     </div>
                     
@@ -62,9 +80,10 @@
                 </div>
                 
                 <div class="section">
-                    <button><p>Add To Cart</p></button>
+                    <button id=add><p>Add To Cart</p></button>
                 </div>
+                
             </div>
-        </article>
+        </article>        
     </body>
 </html>
