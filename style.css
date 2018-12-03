@@ -53,12 +53,12 @@ html {
     font-size: 16px; /* Adjust for REM */
 	line-height: 1;
     background-color: #BEBEBE;
-    width: 700px;
-    margin: 0 auto;
 
 }
 
 body {
+    width: 700px;
+    margin: 0 auto;
     background-color: #F0F0F0;
 }
 
@@ -69,12 +69,64 @@ article {
     width: 83.28571428571429%;
 }
 
+.container {
+    position: relative;
+}
+
+
+#button {
+    position: absolute;
+    border: none;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    left: 75%;
+    top: 45%;
+    
+    border: 2px solid #f5f5f5;
+    box-shadow: 0 0 3px gray;
+}
+
+
+#wrapper {
+    position: absolute;
+    left: 67%;
+    top: 54%;
+}
+
+/*
+#touchpoint2 {
+    position: absolute;
+    border: none;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    left: 40%;
+    top: 24%;
+}
+
+#touchpoint3 {
+    position: absolute;
+    border: none;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    left: 8%;
+    top: 10%;
+}
+*/
+
+#wrapper {
+  background: #ccc;
+  overflow: hidden;
+  transition: height 200ms;
+}
+
 .main-image {
     padding-bottom: 2rem;
 }
 
 .product-details {
-    position: relative;
     height: 36.4375rem;
     background-color: #FFFFFF;
 }
@@ -130,7 +182,7 @@ article {
     text-align: center;
 }
 
-button {
+#add {
     height: 4.625rem;
     line-height: 3.5rem;
     width: 100%;
