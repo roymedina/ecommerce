@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://use.typekit.net/njh6ywh.css">
         
         <!--Don't forget to fill these out!-->
-        <title>Cart | Best Friend Outfitters</title>
+        <title>Checkout | Best Friend Outfitters</title>
         <meta name="description" content="Description for site goes here." />
         
         
@@ -49,42 +49,46 @@
 
             <div class="col-1">
                 
-                  <h1>Cart</h1>
+                <h1>CHECKOUT</h1>
                 
-                <h3>Items (1)</h3>
+                <h3>Back to Cart</h3>
                 
-                <div class="section">
-                    <div class="section-left">
-                        <p>Color: Red</p>
-                        <p>Size: 17 oz.</p>
-                        <p>Quantity: 1</p>
-                    </div>
+                <div class="section"> 
+                    <h1>Contact Information</h1>
                     
-                    <img src="images/Cart-Product-Image.jpg">
-                    
-                    <div class="section-right">
-                        <img src="images/X.png">
-                    </div>
+                 <form>
+                    <input type="text" placeholder="First name" name="firstname" required>
+                    <input type="text" placeholder="Last name" name="lastname" required>
+                    <input type="text" placeholder="Email address" name="email" required>
+                </form>
                 </div>
                 
-                <div class="section">
-                    <div class="section-left">
-                        <p>Subtotal</p>
-                        <p>Tax</p>
-                        <p>Shipping</p>
-                        <p>Estimated Total</p>
-                    </div>
-                    
-                    <div class="section-right">
-                        <p>$ 19.99</p>
-                        <p>TBD</p>
-                        <p>$ 5.00</p>
-                        <p>$ 24.99</p>
-                    </div>
-                </div>
+           <div class="section"> 
+                <h1>Shipping</h1>
+
+                <form>
+                    <input type="text" placeholder="Address" name="address" required>
+                    <input type="text" placeholder="City" name="city" required>
+                     <input type="text" placeholder="Zip / Postal code" name="zip" required>
+                    <input type="text" placeholder="Apt, suite, room # (optional)" name="address2" required>
+                    <input type="text" placeholder="State" name="state" required>
+                    <input type="text" placeholder="Country" name="country" required>
+                </form>
+            </div>
+                
+            <div class="section"> 
+                <h1>Payment</h1>
+
+                <form>
+                    <input type="text" placeholder="Card number" name="card" required>
+                    <input type="text" placeholder="Month" name="month" required><br>
+                    <input type="text" placeholder="CVV" name="year" required>
+                    <input type="text" placeholder="Year" name="cvv" required>
+                </form>
+            </div>
                 
                 <div class="section">
-                    <a href="checkout.html"><button>Checkout</button></a>
+                    <button id=add><p>Pay Now</p></button>
                 </div>
             </div>
         </div>
