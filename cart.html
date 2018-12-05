@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+    <head>
+        <meta charset="UTF-8" />
+        
+        <!--Typekit-->
+        <link rel="stylesheet" href="https://use.typekit.net/njh6ywh.css">
+        
+        <!--Don't forget to fill these out!-->
+        <title>Cart | Best Friend Outfitters</title>
+        <meta name="description" content="Description for site goes here." />
+        
+        
+        <!--Links to the main Style Sheet-->
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="cart.css" rel="stylesheet" type="text/css" />
+        
+        <!--Links to a modernizer JavaScript file that fixes a lot of issues with old browsers-->
+        <script src="js/modernizr.js"></script>
+        
+        <!--Makes the site so it won't scale down on small devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </head>
+
+    <body>
+        
+<!------ Header ------>
+        
+        <header class="topnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="images/Burger-Menu.png"></a>
+            
+            <img src="images/Logo.png">
+            
+            <a href="#" class="active"><h1>BEST FRIEND OUTFITTERS</h1></a>
+            
+
+            <div id="myLinks">
+                <a href="product.html" class="links">Shop</a>
+                <a href="#" class="links">Our Story</a>
+                <a href="#" class="links">Contact</a>
+                <a href="#" class="links">Cart</a>
+            </div>
+        </header>
+
+<!------ Page content ------>
+        
+        <div class="row">
+
+            <div class="col-1">
+                <div class="section">
+                    <div class="section-left">
+                        <p>Color: Red</p>
+                        <p>Size: 17 oz.</p>
+                        <p>Quantity: 1</p>
+                    </div>
+                    
+                    <img src="images/Cart-Product-Image.jpg">
+                    
+                    <div class="section-right">
+                        <img src="images/X.png">
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <div class="section-left">
+                        <p>Subtotal</p>
+                        <p>Tax</p>
+                        <p>Shipping</p>
+                        <p>Estimated Total</p>
+                    </div>
+                    
+                    <div class="section-right">
+                        <p>$ 19.99</p>
+                        <p>TBD</p>
+                        <p>$ 5.00</p>
+                        <p>$ 24.99</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <button>Checkout</button>
+                </div>
+            </div>
+        </div>
+        
+<!------ Footer ------>
+
+        <footer>
+            <div class="footer-section">
+                <h3>Contact Us!</h3>
+                <p>Email Address</p>
+                <a href="#"><p>(987)-654-3210</p></a>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Like Us!</h3>
+                <p>BestFriendOutfitters</p>
+                <a href="#"><p>Facebook</p></a>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us!</h3>
+                <p>@bestfriendoutfitters</p>
+                <a href="#"><p>Instagram &amp; Twitter</p></a>
+            </div>
+            
+            <div class="footer-section">
+                <a href="#" class="terms"><p>Terms of Use</p></a>
+                <a href="#" class="terms"><p>Privacy Policy</p></a>
+                <a href="#" class="terms"><p>All Rights Reserved</p></a>
+                <a href="#" class="terms"><p>&#169; 2018-2019</p></a>
+            </div>
+        </footer>
+        
+<script>
+       function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+        
+    </body>
+</html>
