@@ -1,22 +1,6 @@
 /********** For mobile phones: **********/
 
-.col-1 {
-    margin: 0 auto;
-    }
-    
-.row {
-    margin: 0 auto;
-    }
-    
-
-/********** For desktop: **********/
-
-@media only screen and (min-width: 768px) {
-
     .col-1 {
-        margin: 0 auto;
-    }
-    
-    .row {
+        float: none;
         margin: 0 auto;
     }
