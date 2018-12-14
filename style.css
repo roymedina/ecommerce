@@ -153,9 +153,10 @@ header h1 {
     text-decoration: none;
     background-color: #FE9920;
     color: #F5F5F5;
-    font-family: brandon-grotesque, sans-serif;
     font-size: 1rem;
-    line-height: 1;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    line-height: 2rem;
     cursor: pointer;
     transition: background 250ms ease-in-out, transform 150ms ease;
     -webkit-appearance: none;
@@ -300,6 +301,12 @@ h2 {
 h3 {
     font-weight: 500;
     line-height: 1.5rem;
+}
+
+h4 {
+    font-weight: 300;
+    line-height: 1.5rem;
+    padding: 2rem;
 }
 
 /********** For mobile phones: **********/
