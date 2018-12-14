@@ -1,6 +1,24 @@
 /********** For mobile phones: **********/
 
-    .col-1 {
-        float: none;
-        margin: 0 auto;
-    }
+.col-1 {
+    float: none;
+    margin: 0 auto;
+}
+
+.section img {
+    margin: 0 0 0 0;
+}
+
+.section img:hover {
+    margin: 0 0 0 0;
+    border: none;
+}
+
+.section-align {
+    display: flex;
+    align-items: center;
+}
+
+.delete {
+    margin-left: 70%;
+}
